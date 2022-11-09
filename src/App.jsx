@@ -27,7 +27,7 @@ function App() {
             <Grid className="image-col" item xs={12} md={5}>
               <Carousel autoPlay={false} animation="slide">
                 <div>
-                  <img className="rec-image" src="/african-dancer.jpg" />
+                  <img className="rec-image" src="african-dancer.jpg" />
                   <p>
                     Richmond Barthé
                     <br />
@@ -35,7 +35,7 @@ function App() {
                   </p>
                 </div>
                 <div>
-                  <img className="rec-image" src="/mother-child.png" />
+                  <img className="rec-image" src="mother-child.png" />
                   <p>
                     Sargent Johnson
                     <br />
@@ -43,7 +43,7 @@ function App() {
                   </p>
                 </div>
                 <div>
-                  <img className="rec-image" src="/gamin.jpg" />
+                  <img className="rec-image" src="gamin.jpg" />
                   <p>
                     Augusta Savage
                     <br />
