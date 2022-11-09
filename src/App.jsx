@@ -22,10 +22,7 @@ function App() {
       </h1>
       <div className="card">
         <h2>
-          Suite for violin and piano (1943)
-          <br />
-          <br />
-          William Grant Still (1895-1978)
+          Suite for violin and piano (1943) - William Grant Still (1895-1978)
         </h2>
         <Box>
           <Grid className="row" container spacing={2} alignItems="center">
@@ -117,6 +114,52 @@ function App() {
               Not to choose, but to be chosen.
               <br />
               To be born in a baptism of light.
+              <br />
+              <br />
+              It is midnight.
+              <br />
+              Clouds shroud the moon and stars
+              <br />
+              drenched in black velvet.
+              <br />
+              <br />
+              A candle, placed on a table,
+              <br />
+              with indiscriminate ecstasy,
+              <br />
+              touches everything it can find
+              <br />
+              with a question of light:
+              <br />
+              <br />
+              Who are you?
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1b-content"
+            id="panel1b-header"
+          >
+            <Typography>
+              Maya, c. AD 600-900, Eccentric Flint depicting a crocodile canoe
+              with passengers
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Carve away – what does not bring me closer to the sky.
+              <br />
+              All that slows – the current racing towards what cannot die.
+              <br />
+              The fertile dust of starlight
+              <br />
+              never quite dissolved
+              <br />
+              The bloom of endless echo
+              <br />
+              of a chord yet unresolved.
               <br />
               <br />
               It is midnight.
