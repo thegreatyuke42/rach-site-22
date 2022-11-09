@@ -25,7 +25,12 @@ function App() {
         <Box>
           <Grid className="row" container spacing={2} alignItems="center">
             <Grid className="image-col" item xs={12} md={5}>
-              <Carousel autoPlay={false} animation="slide">
+              <Carousel
+                autoPlay={false}
+                animation="slide"
+                swipe={false}
+                navButtonsAlwaysVisible={true}
+              >
                 <div>
                   <img className="rec-image" src="african-dancer.jpg" />
                   <p>
