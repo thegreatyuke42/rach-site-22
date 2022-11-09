@@ -1,6 +1,11 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import Carousel from 'react-material-ui-carousel';
 
@@ -24,6 +29,20 @@ function App() {
         </h2>
         <Box>
           <Grid className="row" container spacing={2} alignItems="center">
+            <Grid item xs={12} md={7}>
+              <p>
+                William Grant Still’s 1943 suite for violin and piano references
+                three works of art, all created in the 1930s by artists
+                associated with the Harlem Renaissance. Still said of the suite:
+                “when I was asked to compose a suite for violin and piano, I
+                thought of three contemporary Negro artists whom I admire and
+                resolved to try to catch in music my feeling for an outstanding
+                work by each of them.” This work showcases Still’s compositional
+                training, learned at traditional conservatories like Oberlin and
+                the New England Conservatory of Music, as well as his love for
+                popular music, including blues and folk.
+              </p>
+            </Grid>
             <Grid className="image-col" item xs={12} md={5}>
               <Carousel
                 autoPlay={false}
@@ -58,20 +77,6 @@ function App() {
               </Carousel>
               {/* <img className="rec-image" src="../african-dancer.jpg" /> */}
             </Grid>
-            <Grid item xs={12} md={7}>
-              <p>
-                William Grant Still’s 1943 suite for violin and piano references
-                three works of art, all created in the 1930s by artists
-                associated with the Harlem Renaissance. Still said of the suite:
-                “when I was asked to compose a suite for violin and piano, I
-                thought of three contemporary Negro artists whom I admire and
-                resolved to try to catch in music my feeling for an outstanding
-                work by each of them.” This work showcases Still’s compositional
-                training, learned at traditional conservatories like Oberlin and
-                the New England Conservatory of Music, as well as his love for
-                popular music, including blues and folk.
-              </p>
-            </Grid>
           </Grid>
         </Box>
         <div className="column-wrapper">
@@ -93,6 +98,47 @@ function App() {
           sincere response to it can help us examine and shape our own
           identities.
         </p>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>René Magritte “The Light of Coincidences”</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Who are you?
+              <br />
+              Will you come out of the shadows?
+              <br />
+              Not to kiss, but to be kissed.
+              <br />
+              Not to choose, but to be chosen.
+              <br />
+              To be born in a baptism of light.
+              <br />
+              <br />
+              It is midnight.
+              <br />
+              Clouds shroud the moon and stars
+              <br />
+              drenched in black velvet.
+              <br />
+              <br />
+              A candle, placed on a table,
+              <br />
+              with indiscriminate ecstasy,
+              <br />
+              touches everything it can find
+              <br />
+              with a question of light:
+              <br />
+              <br />
+              Who are you?
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
       </div>
       <div className="card">
         <h2>
