@@ -203,7 +203,9 @@ function App() {
               aria-controls="panel1b-content"
               id="panel1b-header"
             >
-              <Typography>Maya, c. AD 600-900, Eccentric Flint</Typography>
+              <Typography>
+                <b>Maya, c. AD 600-900, Eccentric Flint</b>
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
@@ -348,7 +350,7 @@ function App() {
             <AccordionSummary
               expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}
               aria-controls="panel1e-content"
-              id="panel1e-header"
+              id="panel1d-header"
             >
               <Typography>
                 <b>Rufino Tamayo “El Hombre”</b>
