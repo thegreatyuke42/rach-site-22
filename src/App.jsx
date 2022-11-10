@@ -203,9 +203,7 @@ function App() {
               aria-controls="panel1b-content"
               id="panel1b-header"
             >
-              <Typography variant="h6">
-                Maya, c. AD 600-900, Eccentric Flint
-              </Typography>
+              <Typography>Maya, c. AD 600-900, Eccentric Flint</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
@@ -257,8 +255,8 @@ function App() {
               aria-controls="panel1c-content"
               id="panel1c-header"
             >
-              <Typography variant="h6">
-                Gustave Caillebotte “Yellow Roses in a Vase”
+              <Typography>
+                <b>Gustave Caillebotte “Yellow Roses in a Vase”</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -308,8 +306,8 @@ function App() {
               aria-controls="panel1d-content"
               id="panel1d-header"
             >
-              <Typography variant="h6">
-                Piet Mondrian “Place de la Concorde”
+              <Typography>
+                <b>Piet Mondrian “Place de la Concorde”</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -352,7 +350,9 @@ function App() {
               aria-controls="panel1e-content"
               id="panel1e-header"
             >
-              <Typography variant="h6">Rufino Tamayo “El Hombre”</Typography>
+              <Typography>
+                <b>Rufino Tamayo “El Hombre”</b>
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
@@ -388,7 +388,9 @@ function App() {
               aria-controls="panel1f-content"
               id="panel1f-header"
             >
-              <Typography variant="h6">Gerald Murphy “Watch”</Typography>
+              <Typography>
+                <b>Gerald Murphy “Watch”</b>
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
